@@ -10,8 +10,6 @@ int gcd(int a, int b)
 }
 
 
-
-
 int main() {
     cin >> n >> m;
     cout << gcd(n,m);    
