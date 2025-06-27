@@ -20,7 +20,7 @@ bool IsLeap(int Y)
 void CheckMaxDChange(int Y)
 {
     if(IsLeap(Y))
-        maxD[2] = 28;
+        maxD[2] = 29;
 }
 
 void CheckSeason(int Y, int M, int D)
