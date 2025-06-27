@@ -4,7 +4,7 @@ using namespace std;
 
 int Y, M, D;
 
-int maxD[13] = {0,31,30,31,30,31,30,31,31,30,31,30,31};
+int maxD[13] = {0,31,30,28,30,31,30,31,31,30,31,30,31};
 
 bool IsLeap(int Y)
 {
@@ -20,7 +20,7 @@ bool IsLeap(int Y)
 void CheckMaxDChange(int Y)
 {
     if(IsLeap(Y))
-        maxD[2] = 29;
+        maxD[2] = 28;
 }
 
 void CheckSeason(int Y, int M, int D)
