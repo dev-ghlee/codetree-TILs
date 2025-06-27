@@ -4,7 +4,7 @@ using namespace std;
 
 int Y, M, D;
 
-int maxD[13] = {0,31,30,28,30,31,30,31,31,30,31,30,31};
+int maxD[13] = {0,31,28,31,30,31,30,31,31,30,31,30,31};
 
 bool IsLeap(int Y)
 {
