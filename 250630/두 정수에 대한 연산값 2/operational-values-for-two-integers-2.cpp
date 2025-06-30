@@ -20,7 +20,7 @@ void Change(int &a , int &b)
 int main() {
     cin >> a >> b;
     Change(a,b);
-    cout << a << " " ,<<b ;
+    cout << a << " " <<b ;
 
     return 0;
 }
